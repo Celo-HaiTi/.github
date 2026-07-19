@@ -4,7 +4,7 @@ Security is a core pillar of CeloHT.
 
 ## Reporting Vulnerabilities
 Do **not** open public issues.  
-Email: security@celoht.org
+Email: security@celoht.com
 
 Include:
 - Description  

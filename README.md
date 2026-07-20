@@ -476,7 +476,7 @@ The CeloHT roadmap represents our long-term commitment to building a sustainable
 
 ---
 
-# Phase 1 — Foundation
+# Phase 1 - Foundation
 
 ## Building the Ecosystem
 
@@ -491,7 +491,7 @@ Objectives:
 
 ---
 
-# Phase 2 — Growth
+# Phase 2 - Growth
 
 ## Expanding Community Impact
 
@@ -506,7 +506,7 @@ Objectives:
 
 ---
 
-# Phase 3 — Innovation
+# Phase 3 - Innovation
 
 ## Building Sustainable Solutions
 
@@ -625,27 +625,27 @@ CeloHT initiatives support several United Nations Sustainable Development Goals.
 
 Our work aligns with:
 
-## SDG 4 — Quality Education
+## SDG 4 - Quality Education
 
 Promoting digital education, financial literacy, and Web3 learning.
 
-## SDG 8 — Decent Work and Economic Growth
+## SDG 8 - Decent Work and Economic Growth
 
 Supporting entrepreneurship, innovation, and economic opportunities.
 
-## SDG 9 — Industry, Innovation and Infrastructure
+## SDG 9 - Industry, Innovation and Infrastructure
 
 Building digital infrastructure and technological solutions.
 
-## SDG 10 — Reduced Inequalities
+## SDG 10 - Reduced Inequalities
 
 Improving access to financial tools and education.
 
-## SDG 13 — Climate Action
+## SDG 13 - Climate Action
 
 Supporting environmental awareness and reforestation.
 
-## SDG 17 — Partnerships for the Goals
+## SDG 17 - Partnerships for the Goals
 
 Building collaboration between communities and organizations.
 

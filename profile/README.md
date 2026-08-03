@@ -89,7 +89,7 @@ Full detail, including honest status tracking against every milestone: [ROADMAP.
 | [**CeloHT**](https://github.com/Celo-HT/CeloHT) | Core governance, technical, and program documentation |
 | [**celoht-research**](https://github.com/Celo-HT/celoht-research) | Open, peer-reviewed research on our own programs |
 | [**Brand**](https://github.com/Celo-HT/Brand) | Visual identity, logo, and brand guidelines |
-| [**.github**](https://github.com/Celo-HT/.github) | You are here — community health files shared org-wide |
+| [**.github**](https://github.com/Celo-HT/.github) | You are here community health files shared org-wide |
 
 ## Get Involved
 

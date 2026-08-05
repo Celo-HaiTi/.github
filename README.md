@@ -17,9 +17,9 @@
 
 ## Who We Are
 
-CeloHT is a Haitian-led, open-source, community-governed initiative founded in Léogâne, Haiti. We build tools, education, and local support so that financial access doesn't depend on distance from a bank branch — and we do it without a token, without an investment pitch, and without pretending environmental cost is someone else's problem.
+CeloHT is a Haitian-led, open-source, community-governed initiative founded in Léogâne, Haiti. We build tools, education, and local support so that financial access doesn't depend on distance from a bank branch and we do it without a token, without an investment pitch, and without pretending environmental cost is someone else's problem.
 
-**We are not a blockchain, not a cryptocurrency, not an ICO, and not an investment platform.** We build *on* the Celo ecosystem — using cUSD for payments and CELO for network fees — the way any organization builds on infrastructure it doesn't own or control.
+**We are not a blockchain, not a cryptocurrency, not an ICO, and not an investment platform.** We build *on* the Celo ecosystem using cUSD for payments and CELO for network fees the way any organization builds on infrastructure it doesn't own or control.
 
 ## Our Three Pillars
 
@@ -29,7 +29,7 @@ CeloHT is a Haitian-led, open-source, community-governed initiative founded in L
 
 ### 🎓 Education
 
-Financial and Web3 literacy, built and delivered primarily in Haitian Creole. Understanding comes first — always.
+Financial and Web3 literacy, built and delivered primarily in Haitian Creole. Understanding comes first always.
 
 [Learn more →](https://github.com/Celo-HT/CeloHT/blob/main/EDUCATION.md)
 
@@ -38,7 +38,7 @@ Financial and Web3 literacy, built and delivered primarily in Haitian Creole. Un
 
 ### 🤝 Agent Network
 
-Trained, verified local community members providing real human support for cash-to-digital conversion — because trust is built by people, not apps alone.
+Trained, verified local community members providing real human support for cash-to-digital conversion because trust is built by people, not apps alone.
 
 [Learn more →](https://github.com/Celo-HT/CeloHT/blob/main/AGENT_NETWORK.md)
 
@@ -61,7 +61,7 @@ To expand financial inclusion through education, a decentralized network of comm
 
 ## Vision
 
-A Haiti — and over time, a wider Caribbean — where distance from a bank no longer determines whether someone can save, transact, or transfer money safely; where mobile financial tools are used with genuine understanding; and where the pursuit of financial access doesn't come at the expense of the land communities depend on.
+A Haiti and over time, a wider Caribbean where distance from a bank no longer determines whether someone can save, transact, or transfer money safely; where mobile financial tools are used with genuine understanding; and where the pursuit of financial access doesn't come at the expense of the land communities depend on.
 
 ## Roadmap
 
@@ -92,14 +92,14 @@ Full detail, including honest status tracking against every milestone: [ROADMAP.
 
 - 🐛 **Found a bug or gap?** [Open an issue](https://github.com/Celo-HT/CeloHT/issues/new/choose) in the relevant repository
 - 💬 **Have a question?** [Start a discussion](https://github.com/orgs/Celo-HT/discussions)
-- 🌍 **Want to contribute?** Read our [Contributing Guide](../CONTRIBUTING.md) — start with an issue tagged `good-first-issue`
+- 🌍 **Want to contribute?** Read our [Contributing Guide](../CONTRIBUTING.md) start with an issue tagged `good-first-issue`
 - 🔬 **Interested in research?** See [celoht-research](https://github.com/Celo-HT/celoht-research)
 - 🤝 **Represent a partner organization?** See [PARTNERS.md](https://github.com/Celo-HT/CeloHT/blob/main/PARTNERS.md)
-- 💛 **Want to support the mission financially?** See [FUNDING.yml](../FUNDING.yml) and [BUSINESS_MODEL.md](https://github.com/Celo-HT/CeloHT/blob/main/BUSINESS_MODEL.md) — no token, no crypto fundraising, ever
+- 💛 **Want to support the mission financially?** See [FUNDING.yml](../FUNDING.yml) and [BUSINESS_MODEL.md](https://github.com/Celo-HT/CeloHT/blob/main/BUSINESS_MODEL.md) no token, no crypto fundraising, ever
 
 ## Governance
 
-CeloHT is governed through a Foundation Director, a Maintainer Council, and Community Contributors — not a single founder, and not token-weighted voting. Full detail: [GOVERNANCE.md](../GOVERNANCE.md).
+CeloHT is governed through a Foundation Director, a Maintainer Council, and Community Contributors not a single founder, and not token-weighted voting. Full detail: [GOVERNANCE.md](../GOVERNANCE.md).
 
 ## Community Standards
 
@@ -107,7 +107,7 @@ Every CeloHT repository operates under the same [Code of Conduct](../CODE_OF_CON
 
 ## A Note on Trust
 
-If you see the CeloHT name attached to a token, a presale, or an investment offer anywhere — it's fraudulent. We have none of those, on principle, permanently. See our [No-Token Policy](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md) and report misuse to **security@celoht.com**.
+If you see the CeloHT name attached to a token, a presale, or an investment offer anywhere it's fraudulent. We have none of those, on principle, permanently. See our [No-Token Policy](https://github.com/Celo-HT/CeloHT/blob/main/NO_TOKEN_POLICY.md) and report misuse to **security@celoht.com**.
 
 ---
 

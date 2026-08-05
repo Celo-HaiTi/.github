@@ -1,0 +1,30 @@
+# Dependabot config for CeloHT repositories.
+# Copy this same file to .github/dependabot.yml in EACH repository
+# (celoht-siteweb, celoht-dapp, celoht-smart-contracts, celoht-docs, etc.)
+# — dependabot.yml does NOT propagate automatically from the .github repo,
+# unlike issue/PR templates and the profile README.
+
+version: 2
+updates:
+  # JavaScript/TypeScript dependencies (Next.js, Hardhat, docx, etc.)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "chore(deps)"
+
+  # GitHub Actions workflow versions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "ci"
+    commit-message:
+      prefix: "chore(ci)"

@@ -4,7 +4,7 @@ Copy each of these into a new GitHub issue (using the templates above) in the re
 
 ## celoht-docs
 
-1. **"Add a glossary of Web3 terms in Haitian Creole"** — cUSD, gas fee, wallet, seed phrase, etc., defined in plain Kreyòl for first-time readers.
+1. **"Add a glossary of Web3 terms in Haitian Creole"** — USDm, gas fee, wallet, seed phrase, etc., defined in plain Kreyòl for first-time readers.
 2. **"Fix broken internal links"** — audit all `.md` files for links to files that were renamed or moved.
 3. **"Add a FAQ page"** — 10–15 questions a first-time visitor or partner would ask, pulled from real questions you've already answered by email/DM.
 

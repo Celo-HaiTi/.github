@@ -2,7 +2,7 @@
 
 **CeloHT has no token, no cryptocurrency of its own, no ICO, and no investment offering — permanently, on principle.**
 
-CeloHT builds *on* the Celo ecosystem, using cUSD for payments and CELO for network fees, the same way any application built on Celo does.
+CeloHT builds *on* the Celo ecosystem, using USDm for payments and CELO for network fees, the same way any application built on Celo does.
 
 This is the canonical, full policy for the entire CeloHT organization: [github.com/Celo-HaiTi/CeloHT/blob/main/NO_TOKEN_POLICY.md](https://github.com/Celo-HaiTi/CeloHT/blob/main/NO_TOKEN_POLICY.md)
 

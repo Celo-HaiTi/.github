@@ -79,6 +79,12 @@ CeloHT is governed through a Foundation Director, a Maintainer Council, and Comm
 
 Every CeloHT repository operates under the same [Code of Conduct](https://github.com/Celo-HaiTi/.github/blob/main/CODE_OF_CONDUCT.md). We're especially committed to being welcoming to first-time open-source contributors and non-English speakers.
 
+## Official GitHub Organization
+
+Celo-HaiTi is the official GitHub organization for CeloHT.
+All official CeloHT repositories, documentation, research, brand assets, and open-source infrastructure are maintained under this organization.
+The Celo-HT organization is a legacy/previous organization and should not be considered the primary source of truth for current CeloHT development.
+
 ## A Note on Trust
 
 If you see the CeloHT name attached to a token, a presale, or an investment offer anywhere — it's fraudulent. We have none of those, on principle, permanently. See our [No-Token Policy](https://github.com/Celo-HaiTi/CeloHT/blob/main/NO_TOKEN_POLICY.md) and report misuse to **security@celoht.com**.

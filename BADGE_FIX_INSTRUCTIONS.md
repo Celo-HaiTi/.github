@@ -4,8 +4,8 @@ The current README badges point to the wrong org path (`celo-ht` instead of `Cel
 
 **Find:**
 ```
-[![CI](https://github.com/celo-ht/celoht-smart-contracts/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
-[![CodeQL](https://github.com/celo-ht/celoht-smart-contracts/actions/workflows/codeql.yml/badge.svg)](.github/workflows/codeql.yml)
+[![CI](https://github.com/celo-ht/celoht-smart-contracts/actions/workflows/ci.yml/badge.svg)](https://github.com/celo-ht/celoht-smart-contracts/blob/main/.github/workflows/ci.yml)
+[![CodeQL](https://github.com/celo-ht/celoht-smart-contracts/actions/workflows/codeql.yml/badge.svg)](https://github.com/celo-ht/celoht-smart-contracts/blob/main/.github/workflows/codeql.yml)
 ```
 
 **Replace with:**

@@ -13,7 +13,7 @@ Closes #
 
 ## Checklist
 
-- [ ] I read [CONTRIBUTING.md](../CONTRIBUTING.md)
+- [ ] I read [CONTRIBUTING.md](./CONTRIBUTING.md)
 - [ ] I tested this change locally
 - [ ] I updated documentation if needed
 - [ ] This PR does not introduce a token, coin, or investment claim of any kind (see [NO_TOKEN_POLICY.md](https://github.com/Celo-HaiTi/CeloHT/blob/main/NO_TOKEN_POLICY.md))

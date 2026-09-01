@@ -1,7 +1,7 @@
 # CeloHT Business Model
 
 **Document Type:** Strategic & Financial Governance Document
-**Applies To:** CeloHT (Celo-HT) and all affiliated repositories under github.com/Celo-HT
+**Applies To:** CeloHT (Celo-HaiTi) and all affiliated repositories under github.com/Celo-HaiTi
 **License:** Apache 2.0 (this document, unless otherwise noted)
 **Status:** Active
 **Version:** 1.0.0
@@ -9,7 +9,7 @@
 **Maintained By:** CeloHT Maintainer Council, under the authority of the Foundation Director
 **Contact:** contact@celoht.com | partnerships@celoht.com
 
-> **Compliance Note:** The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** are used per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) where obligations are stated. This document is a strategic and educational reference. It is **not** an investment prospectus, offering memorandum, or solicitation of securities. See [Compliance & Legal Framing](#29-compliance--legal-framing).
+> **Compliance Note:** The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** are used per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) where obligations are stated. This document is a strategic and educational reference. It is **not** an investment prospectus, offering memorandum, or solicitation of securities. See [Compliance & Legal Framing](#29-compliance--legal-framing). The repository itself is org metadata and does not implement on-chain financial products.
 
 ---
 
@@ -630,7 +630,7 @@ This vision is aspirational and directional. It does not constitute a forecast, 
 - [`PARTNERSHIPS.md`](./PARTNERSHIPS.md) — Partnership categories, due diligence, and approval process
 - [`SECURITY.md`](./SECURITY.md) — Security disclosure process
 - [`WHITEPAPER.md`](./WHITEPAPER.md) — Technical and mission overview
-- [`ROADMAP.md`](./ROADMAP.md) — Phase 1–4 development roadmap
+- [Roadmap](https://github.com/Celo-HaiTi/celoht-docs/blob/main/ROADMAP.md) — Phase 1–4 development roadmap
 - `TREASURY.md` — *(planned)* Financial management and reporting policy
 - `FUNDING_POLICY.md` — *(planned)* Grant and funding acceptance criteria
 - `LEGAL_STATUS.md` — *(planned)* CeloHT's legal structure and jurisdictional status

@@ -1,7 +1,7 @@
 # CeloHT Partnerships Policy
 
 **Document Type:** Governance Policy
-**Applies To:** CeloHT (Celo-HT) and all affiliated repositories under github.com/Celo-HT
+**Applies To:** CeloHT (Celo-HaiTi) and all affiliated repositories under github.com/Celo-HaiTi
 **License:** Apache 2.0 (this document, unless otherwise noted)
 **Status:** Active
 **Version:** 1.0.0
@@ -824,7 +824,7 @@ This policy operates alongside, and is subordinate to, the following CeloHT gove
 - `TRANSPARENCY.md` — *(planned)* Public reporting commitments
 - `RISK_MANAGEMENT.md` — *(planned)* Organization-wide risk framework
 - [`WHITEPAPER.md`](./WHITEPAPER.md) — Technical and mission overview
-- [`ROADMAP.md`](./ROADMAP.md) — Phase 1–4 development roadmap
+- [Roadmap](https://github.com/Celo-HaiTi/celoht-docs/blob/main/ROADMAP.md) — Phase 1–4 development roadmap
 
 Where a planned document does not yet exist, this Partnerships Policy governs on an interim basis for matters within its scope.
 

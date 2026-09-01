@@ -69,6 +69,12 @@ Full detail, including honest status tracking against every milestone: [ROADMAP.
 - 🤝 **Represent a partner organization?** See [PARTNERS.md](https://github.com/Celo-HaiTi/celoht-research/blob/main/PARTNERS.md)
 - 💛 **Want to support the mission financially?** See [FUNDING.yml](https://github.com/Celo-HaiTi/.github/blob/main/FUNDING.yml) and [BUSINESS_MODEL.md](https://github.com/Celo-HaiTi/celoht-docs/blob/main/BUSINESS_MODEL.md) no token, no crypto fundraising, ever
 
+## Official GitHub Organization
+
+The official GitHub organization for CeloHT is [Celo-HaiTi](https://github.com/Celo-HaiTi). This is the primary and canonical GitHub home for CeloHT repositories, documentation, research, brand assets, and open-source infrastructure.
+
+The legacy organization name [Celo-HT](https://github.com/Celo-HT) is historical and should not be treated as the current source of truth for official CeloHT development, repositories, or community operations.
+
 ## Governance
 
 CeloHT is governed through a Foundation Director, a Maintainer Council, and Community Contributors not a single founder, and not token-weighted voting. Full detail: [GOVERNANCE.md](https://github.com/Celo-HaiTi/CeloHT/blob/main/GOVERNANCE.md).

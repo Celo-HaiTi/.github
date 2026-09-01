@@ -81,9 +81,9 @@ Every CeloHT repository operates under the same [Code of Conduct](https://github
 
 ## Official GitHub Organization
 
-Celo-HaiTi is the official GitHub organization for CeloHT.
-All official CeloHT repositories, documentation, research, brand assets, and open-source infrastructure are maintained under this organization.
-The Celo-HT organization is a legacy/previous organization and should not be considered the primary source of truth for current CeloHT development.
+The official GitHub organization for CeloHT is [Celo-HaiTi](https://github.com/Celo-HaiTi). This is the primary and canonical GitHub home for CeloHT repositories, documentation, research, brand assets, and open-source infrastructure.
+
+The legacy organization name [Celo-HT](https://github.com/Celo-HT) is historical and should not be treated as the current source of truth for official CeloHT development, repositories, or community operations.
 
 ## A Note on Trust
 

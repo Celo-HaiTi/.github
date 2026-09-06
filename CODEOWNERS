@@ -1,5 +1,3 @@
-# CODEOWNERS — copy this file to .github/CODEOWNERS in EACH repository.
-# Requires review from the listed owner(s) before merge.
-# Replace @johnnydubic with your actual GitHub username.
-
-* @johnnydubic
+# No verified owner is currently assigned.
+# Manual review assignment is required until a maintainer or organization team
+# is formally confirmed and published in MAINTAINERS.md.

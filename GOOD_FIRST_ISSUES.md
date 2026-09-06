@@ -17,7 +17,7 @@ Copy each of these into a new GitHub issue (using the templates above) in the re
 ## celoht-dapp
 
 7. **"Add a loading state to the wallet-connect button"** — small, contained, good starter PR.
-8. **"Write a testnet setup guide for contributors"** — how to get Alfajores test funds and connect Valora in dev mode.
+8. **"Write a testnet setup guide for contributors"** — how to use Celo Sepolia (chain ID `11142220`) and connect a supported wallet in dev mode.
 
 ## celoht-research
 

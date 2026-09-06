@@ -7,13 +7,13 @@ FAIL=0
 cd "$(dirname "$0")"
 
 echo "=== 1. Markdown code-fence balance ==="
-for f in $(find . -name "*.md"); do
+while IFS= read -r -d '' f; do
   n=$(grep -c '```' "$f")
   if [ $((n % 2)) -ne 0 ]; then
     echo "UNBALANCED: $f"
     FAIL=1
   fi
-done
+done < <(find . -name "*.md" -print0)
 [ "$FAIL" -eq 0 ] && echo "OK"
 
 echo ""
@@ -45,10 +45,9 @@ if [ $? -ne 0 ]; then FAIL=1; fi
 echo ""
 echo "=== 3. YAML validity (workflows, issue templates, FUNDING.yml) ==="
 python3 - <<'PYEOF'
-import yaml, glob, sys
+import glob, sys, yaml
 ok = True
-files = glob.glob('workflows/*.yml') + glob.glob('ISSUE_TEMPLATE/*.yml') + ['FUNDING.yml', 'mlc_config.json' if False else None]
-files = [f for f in files if f]
+files = glob.glob('*.yml') + glob.glob('*.yaml') + glob.glob('ISSUE_TEMPLATE/*.yml')
 for f in files:
     try:
         yaml.safe_load(open(f))
@@ -71,7 +70,7 @@ if [ $? -ne 0 ]; then FAIL=1; fi
 
 echo ""
 echo "=== 5. No-Token Policy language check ==="
-if grep -rniE '\$celoht\b|celoht ?coin\b|celoht token (sale|launch|is live)|presale (is|now) (live|open)|buy celoht|invest in celoht' \
+if grep -RniE '\$celoht\b|celoht ?coin\b|celoht token (sale|launch|is live)|presale (is|now) (live|open)|buy celoht|invest in celoht' \
   --include="*.md" . ; then
   echo "FAIL"
   FAIL=1

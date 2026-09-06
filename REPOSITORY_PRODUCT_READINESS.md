@@ -120,6 +120,10 @@ This repository is not the application layer, not a smart-contract package, and 
 
 ## Final Product Readiness Status
 
-READY
+IMPLEMENTED
+
+See [PRODUCTION_READINESS.md](./PRODUCTION_READINESS.md) for the evidence-based
+status of this organization metadata repository and its remaining operational
+limitations.
 
 This repository is product-ready for its role as the CeloHT organization metadata and shared default configuration repo. It is synchronized with the current canonical organization identity, its validation checks pass, and no known fixable integrity issues remain in scope.

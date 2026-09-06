@@ -1,11 +1,13 @@
 # Fix for celoht-smart-contracts/README.md badges
 
-The current README badges point to the wrong org path (`celo-ht` instead of `Celo-HaiTi`), so they can never reflect real build status. Find-and-replace these two lines near the top of `README.md`:
+The current README badges in affected repositories may point to the legacy org
+path. Use the canonical `Celo-HaiTi` path so badges reflect the current source
+of truth. Find-and-replace the affected lines near the top of `README.md`:
 
 **Find:**
 ```
-[![CI](https://github.com/celo-ht/celoht-smart-contracts/actions/workflows/ci.yml/badge.svg)](https://github.com/celo-ht/celoht-smart-contracts/blob/main/.github/workflows/ci.yml)
-[![CodeQL](https://github.com/celo-ht/celoht-smart-contracts/actions/workflows/codeql.yml/badge.svg)](https://github.com/celo-ht/celoht-smart-contracts/blob/main/.github/workflows/codeql.yml)
+[![CI](https://github.com/Celo-HaiTi/celoht-smart-contracts/actions/workflows/ci.yml/badge.svg)](https://github.com/Celo-HaiTi/celoht-smart-contracts/blob/main/.github/workflows/ci.yml)
+[![CodeQL](https://github.com/Celo-HaiTi/celoht-smart-contracts/actions/workflows/codeql.yml/badge.svg)](https://github.com/Celo-HaiTi/celoht-smart-contracts/blob/main/.github/workflows/codeql.yml)
 ```
 
 **Replace with:**

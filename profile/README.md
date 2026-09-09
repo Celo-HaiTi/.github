@@ -3,7 +3,6 @@
 # CeloHT
 
 <img width="260" height="260" alt="celoht-logo" src="https://github.com/user-attachments/assets/37c69587-139b-4ecd-b5a7-c73f22ec144f" />
- CeloHT
 
 Open-source financial inclusion, Web3 education, community infrastructure, and environmental impact — built in Haiti, for Haiti and beyond.
 

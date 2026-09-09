@@ -5,7 +5,7 @@
 <img width="260" height="260" alt="celoht-logo" src="https://github.com/user-attachments/assets/37c69587-139b-4ecd-b5a7-c73f22ec144f" />
 
 
-Open-source financial inclusion, Web3 education, community infrastructure, and environmental impact — built in Haiti, for Haiti and beyond.
+Open-source financial inclusion, Web3 education, community infrastructure, and environmental impact built in Haiti, for Haiti and beyond.
 
 [![Celo](https://img.shields.io/badge/Built%20on-Celo-35D07F?style=for-the-badge)](https://celo.org/)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Apache%202.0-blue?style=for-the-badge)](https://github.com/Celo-HaiTi)

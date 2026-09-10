@@ -1,312 +1,312 @@
-<div align="center">
-
 # CeloHT
 
-<img width="260" height="260" alt="celoht-logo" src="https://github.com/user-attachments/assets/37c69587-139b-4ecd-b5a7-c73f22ec144f" />
+**Haitian-led, open-source, community-governed digital financial inclusion initiative built on Celo.**
 
+[![License](https://img.shields.io/badge/license-open--source-blue)](#)
+[![No Token](https://img.shields.io/badge/token-none-critical)](#no-token-policy)
+[![Status](https://img.shields.io/badge/status-active--development-yellow)](#repository-status-philosophy)
+[![Website](https://img.shields.io/badge/website-celoht.com-brightgreen)](https://www.celoht.com)
 
-Open-source financial inclusion, Web3 education, community infrastructure, and environmental impact built in Haiti, for Haiti and beyond.
+CeloHT is a Haitian-led, open-source, community-governed initiative focused on financial inclusion, Web3 and financial education, community-based digital financial infrastructure, environmental restoration, and open research. CeloHT uses the [Celo](https://celo.org) ecosystem as its underlying technical infrastructure.
 
-[![Celo](https://img.shields.io/badge/Built%20on-Celo-35D07F?style=for-the-badge)](https://celo.org/)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Apache%202.0-blue?style=for-the-badge)](https://github.com/Celo-HaiTi)
-[![No Token](https://img.shields.io/badge/No%20Token-Permanent-yellow?style=for-the-badge)](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md)
-
-CeloHT is a Haitian-led, open-source, community-governed initiative building practical infrastructure for financial inclusion, digital education, community-based financial access, and environmental restoration.
-
-We use the Celo ecosystem as technical infrastructure. CeloHT is not a blockchain, does not issue a native token, and is not an investment platform.
+> **CeloHT is not a blockchain, cryptocurrency, exchange, investment platform, ICO, or token issuer.** See the [No Token Policy](#no-token-policy) below.
 
 ---
 
-## 🌍 What We Are Building
+## Table of Contents
 
-CeloHT is organized around three permanent pillars:
+- [Mission](#mission)
+- [Core Pillars](#core-pillars)
+- [Architecture](#architecture)
+- [Repository Ecosystem](#repository-ecosystem)
+- [Financial Infrastructure](#financial-infrastructure)
+- [No Token Policy](#no-token-policy)
+- [Governance](#governance)
+- [Security & Transparency](#security--transparency)
+- [Responsible Communication](#responsible-communication)
+- [Research & Evidence](#research--evidence)
+- [Roadmap](#roadmap)
+- [Community Standards](#community-standards)
+- [Contributing](#contributing)
+- [Repository Status Philosophy](#repository-status-philosophy)
+- [Relationship with Celo](#relationship-with-celo)
+- [Official Links](#official-links)
 
-### 🎓 Education
+---
 
-Financial literacy, Web3 education, digital security, and practical blockchain education — with community learning designed primarily for Haitian Creole-speaking users.
+## Mission
+
+CeloHT exists to help Haitian communities access digital financial tools safely, understand the technology behind them, and benefit from transparent, community-led development and environmental programs. The initiative is organized around three core pillars and supported by open documentation, open research, and open governance.
+
+## Core Pillars
+
+### 📚 Education
+
+Financial literacy, Web3 education, digital security, and practical blockchain education, primarily designed for Haitian Creole-speaking communities. Education is treated as a prerequisite for responsible digital financial access, not an afterthought.
 
 ### 🤝 Agent Network
 
-A community-rooted network of trained agents designed to help people access digital financial tools, understand wallets and payments, and bridge physical cash with digital financial services where appropriate.
+A community-rooted network of trained agents designed to help people access digital financial tools and bridge physical cash with digital services. The design emphasizes:
+
+- Training and certification
+- Verification of agent identity and conduct
+- Accountability mechanisms
+- User protection
+- Community trust
 
 ### 🌱 Reforestation
 
-Community-led environmental restoration designed around transparent reporting, measurable impact, and long-term community participation.
+Community-led environmental restoration with transparent reporting and measurable impact. The program is built around:
+
+- Community participation
+- Tree survival tracking
+- Transparent, auditable reporting
+- Measurable environmental impact
+- Long-term restoration, not one-time planting events
 
 ---
 
-## ⚡ The CeloHT Stack
+## Architecture
 
-CeloHT is developing an open-source technology stack connecting blockchain infrastructure with real-world community programs.
+CeloHT is organized as a multi-repository ecosystem separating user applications, backend services, blockchain infrastructure, data systems, governance, operations, documentation, research, the public website, and brand infrastructure.
 
-```
-┌──────────────────────────────────────────────┐
-│                    CeloHT                     │
-│        Community + Financial Inclusion        │
-└──────────────────────┬───────────────────────┘
-                        │
-        ┌───────────────┼───────────────┐
-        │                │               │
-   Education       Agent Network    Reforestation
-        │                │               │
-        └───────────────┼───────────────┘
-                        │
-                  CeloHT dApp
-                        │
-        ┌───────────────┼───────────────┐
-        │                │               │
-     Backend          Indexer       Governance
-        │                │               │
-        └───────────────┼───────────────┘
-                        │
-                   Supabase
-                        │
-              Celo Smart Contracts
-                        │
-                  Celo Network
+```mermaid
+flowchart TD
+    A[CeloHT] --> B[Education]
+    A --> C[Agent Network]
+    A --> D[Reforestation]
+
+    B --> E[dApp]
+    C --> E
+    D --> E
+
+    E --> F[Backend]
+    E --> G[Governance]
+
+    F --> H[Supabase]
+    F --> I[Indexer]
+
+    G --> H
+
+    F --> J[Smart Contracts]
+    I --> J
+
+    J --> K[Celo Network]
 ```
 
-The current open-source stack includes:
-
-- **dApp** — user-facing CeloHT application
-- **Smart Contracts** — Agent Network, Service Payments, Education, Reforestation, and Governance
-- **Backend** — authentication, authorization, agents, education, reforestation, governance, administration, and audit logging
-- **Indexer** — blockchain event synchronization and data indexing
-- **Governance** — proposal lifecycle, voting, treasury approval, timelocks, and audit logging
-- **Supabase** — database, Row Level Security, migrations, and private evidence/KYC storage
-- **Admin** — operational dashboards for treasury, governance, education, agents, and reforestation
-- **Documentation & Research** — technical, institutional, governance, security, and program documentation
-
-CeloHT's public GitHub organization currently maintains these components as separate, open-source repositories.
+This diagram reflects the current intended architecture. Individual components move through the [status lifecycle](#repository-status-philosophy) independently — the presence of a component in this diagram does not imply it is deployed to Mainnet.
 
 ---
 
-## 💳 Digital Financial Infrastructure
+## Repository Ecosystem
 
-CeloHT uses:
+The CeloHT organization currently contains 15 repositories:
 
-- **USDm** for supported payment and settlement use cases
-- **CELO** for Celo network transaction fees
-- Celo-compatible wallets and wallet infrastructure for user access
+| # | Repository | Purpose |
+|---|------------|---------|
+| 1 | [CeloHT](https://github.com/Celo-HaiTi/CeloHT) | Core project, governance, policies, strategy, and institutional documentation |
+| 2 | [.github](https://github.com/Celo-HaiTi/.github) | Organization-wide GitHub standards, templates, policies, and community infrastructure |
+| 3 | [celoht-docs](https://github.com/Celo-HaiTi/celoht-docs) | Official documentation, architecture, governance, roadmap, APIs, and developer resources |
+| 4 | [celoht-research](https://github.com/Celo-HaiTi/celoht-research) | Research, technical studies, RFCs, specifications, and evidence-based analysis |
+| 5 | [celoht-dapp](https://github.com/Celo-HaiTi/celoht-dapp) | User-facing CeloHT decentralized application |
+| 6 | [celoht-smart-contracts](https://github.com/Celo-HaiTi/celoht-smart-contracts) | Solidity smart-contract infrastructure for the CeloHT ecosystem |
+| 7 | [celoht-backend](https://github.com/Celo-HaiTi/celoht-backend) | Backend services: authentication, authorization, agents/KYC, education, reforestation, governance, admin, and audit logging |
+| 8 | [celoht-indexer](https://github.com/Celo-HaiTi/celoht-indexer) | Blockchain event indexing and synchronization infrastructure |
+| 9 | [celoht-governance](https://github.com/Celo-HaiTi/celoht-governance) | Governance proposals, voting, treasury, timelocks, and governance infrastructure |
+| 10 | [celoht-supabase](https://github.com/Celo-HaiTi/celoht-supabase) | Database, migrations, Row Level Security, and private data infrastructure |
+| 11 | [celoht-admin](https://github.com/Celo-HaiTi/celoht-admin) | Operational control center and administrative dashboards |
+| 12 | [celoht-siteweb](https://github.com/Celo-HaiTi/celoht-siteweb) | Official public CeloHT website |
+| 13 | [celoht-brand](https://github.com/Celo-HaiTi/celoht-brand) | Official visual identity, logos, brand guidelines, messaging, and communication assets |
+| 14 | [celoht-demo](https://github.com/Celo-HaiTi/celoht-demo) | Interactive demonstration of the CeloHT ecosystem *(simulation — see note below)* |
+| 15 | [celoht-investor-book](https://github.com/Celo-HaiTi/celoht-investor-book) | Long-form project and ecosystem documentation |
 
-CeloHT does not issue a CeloHT token.
+> ⚠️ **About `celoht-demo`:** This repository is a **demonstration/simulation**. Any wallet connections, transaction hashes, dashboard figures, user metrics, or financial metrics shown in the demo are simulated for illustrative purposes and must never be interpreted as real production data, real users, or real financial activity.
 
-### No Token. No ICO. No Presale.
+---
 
-CeloHT has:
+## Financial Infrastructure
 
-- ❌ No native CeloHT token
+CeloHT does not build its own currency or payment rails. Instead, it uses existing Celo ecosystem infrastructure:
+
+- **USDm** — used as a reference stablecoin for supported payment and settlement use cases
+- **CELO** — used to pay transaction (gas) fees on the Celo network
+- **Celo-compatible wallet infrastructure** — used for account and transaction handling
+
+CeloHT did **not** create USDm or CELO, does **not** operate a bank, and does **not** control the Celo network. CeloHT is a downstream, independent user of Celo's public infrastructure.
+
+---
+
+## No Token Policy
+
+**CeloHT has no native token.**
+
+There is:
+
+- ❌ No CeloHT token
+- ❌ No "$CELOHT"
 - ❌ No ICO
 - ❌ No presale
-- ❌ No token sale
+- ❌ No private token sale
 - ❌ No staking token
+- ❌ No token-weighted governance
 - ❌ No investment promise
 
-Any token, presale, or investment offer claiming to represent CeloHT should be treated as unauthorized.
+CeloHT relies on existing Celo ecosystem infrastructure rather than issuing a speculative CeloHT token. **Any token, presale, or investment offer claiming to represent CeloHT is unauthorized and does not originate from this project.**
 
-See our [No-Token Policy](https://github.com/Celo-HaiTi/celoht-docs/blob/main/NO_TOKEN_POLICY.md).
-
----
-
-## 🔐 Security & Transparency
-
-Security and transparency are core requirements of the project.
-
-CeloHT publishes its:
-
-- Architecture
-- Governance model
-- Smart-contract source code
-- Security policies
-- Threat models
-- Deployment documentation
-- Research
-- Financial transparency documentation
-- Roadmap
-- Community standards
-- Contribution policies
-
-The smart-contract system is being developed and tested openly before Mainnet activation. Mainnet deployment is treated as a separate security and operational milestone, not as a claim that testnet code is already production-audited.
+Full policy: [`NO_TOKEN_POLICY.md`](https://github.com/Celo-HaiTi/CeloHT/blob/main/NO_TOKEN_POLICY.md)
 
 ---
 
-## 🧭 Roadmap
+## Governance
 
-### Phase 1 — Foundation
-**2026 Q2–Q3**
+CeloHT is a community-governed open-source initiative. Governance is based on participation, contribution, documented processes, and community responsibility — **not token ownership**.
 
-- Establish core documentation
-- Build the open-source technology foundation
-- Develop the first agent cohort
-- Establish initial partnerships
-- Build the core dApp and infrastructure
-
-### Phase 2 — Validation
-**2026 Q4–2027 Q1**
-
-- Validate the complete model in a pilot community
-- Test the technology stack end-to-end
-- Strengthen operational infrastructure
-- Validate Agent Network workflows
-- Continue security and production-readiness work
-
-### Phase 3 — Growth
-**2027**
-
-- Expand beyond the initial pilot
-- Grow community participation
-- Expand the Agent Network
-- Public dApp beta
-- Scale education and environmental programs
-
-### Phase 4 — Maturity
-**2028+**
-
-- Greater governance decentralization
-- Broader regional expansion
-- Financial self-sustainability
-- Mature impact measurement
-- Long-term institutional and community infrastructure
-
-See the full [CeloHT Roadmap](https://github.com/Celo-HaiTi/celoht-docs/blob/main/ROADMAP.md).
-
----
-
-## 📚 Explore CeloHT
-
-| Repository | Purpose |
-|---|---|
-| [celoht-docs](https://github.com/Celo-HaiTi/celoht-docs) | Official documentation, architecture, governance, whitepaper, roadmap, and standards |
-| [CeloHT](https://github.com/Celo-HaiTi/CeloHT) | Core project, governance, technical, and program documentation |
-| [celoht-dapp](https://github.com/Celo-HaiTi/celoht-dapp) | CeloHT decentralized application |
-| [celoht-smart-contracts](https://github.com/Celo-HaiTi/celoht-smart-contracts) | Solidity smart-contract infrastructure |
-| [celoht-backend](https://github.com/Celo-HaiTi/celoht-backend) | Application backend and operational APIs |
-| [celoht-indexer](https://github.com/Celo-HaiTi/celoht-indexer) | Celo blockchain event indexing |
-| [celoht-governance](https://github.com/Celo-HaiTi/celoht-governance) | Community governance infrastructure |
-| [celoht-supabase](https://github.com/Celo-HaiTi/celoht-supabase) | Database, migrations, security policies, and private storage |
-| [celoht-admin](https://github.com/Celo-HaiTi/celoht-admin) | Operational control center |
-| [celoht-research](https://github.com/Celo-HaiTi/celoht-research) | Research, technical studies, specifications, and evidence |
-| [celoht-siteweb](https://github.com/Celo-HaiTi/celoht-siteweb) | Official public website |
-| [celoht-brand](https://github.com/Celo-HaiTi/celoht-brand) | Official visual identity and brand assets |
-
-The organization currently lists the dApp, website, indexer, governance, backend, Supabase, admin, documentation, research, and smart-contract repositories as active parts of the CeloHT ecosystem.
-
----
-
-## 🏛️ Governance
-
-CeloHT is community-governed and open-source.
-
-Governance is designed around:
+Governance structures may include:
 
 - Governance Council
 - Working Groups
-- Repository Maintainers
+- Maintainers
 - Contributors
-- Community participation
+- Open community participation
 
-CeloHT does not use token-weighted governance.
-
-The Founder does not hold unlimited unilateral control over the project; governance authority is defined by the project's published governance framework.
-
-Read the [Governance Documentation](https://github.com/Celo-HaiTi/celoht-docs/blob/main/GOVERNANCE.md).
+CeloHT is **not** described as an already-operational DAO. Where DAO-style governance is discussed, it represents a future, phased design goal rather than current operational reality. Details are tracked in [`celoht-governance`](https://github.com/Celo-HaiTi/celoht-governance).
 
 ---
 
-## 🌐 Open Source
+## Security & Transparency
 
-CeloHT believes infrastructure serving communities should be inspectable.
+CeloHT distinguishes clearly between stages of readiness:
 
-Our repositories are public so developers, researchers, partners, auditors, contributors, and community members can:
+```
+Development → Testing → Testnet → Security Review → Production Readiness → Mainnet
+```
 
-- Inspect the code
-- Review the architecture
-- Study the documentation
-- Propose improvements
-- Report vulnerabilities
-- Contribute code
-- Participate in governance
-- Review project progress
+Testnet deployment is **never** treated as equivalent to a completed security audit or production readiness. Mainnet activation is a distinct security and operational milestone, reached only after dedicated review.
 
-Contributions are welcome.
+Security practices emphasized across the ecosystem include:
 
-Read the [Contributing Guide](https://github.com/Celo-HaiTi/.github/blob/main/CONTRIBUTING.md).
+- Secure development practices
+- Access control
+- Audit logging
+- Responsible disclosure
+- Smart-contract review
+- Protection of private data
+- Deployment transparency
+- Public security documentation
 
----
-
-## 🛡️ Responsible Development
-
-CeloHT follows a simple principle:
-
-> Do not present infrastructure as production-ready until it has been properly tested, reviewed, and validated.
-
-That means:
-
-- No fake production data
-- No fabricated partnerships
-- No invented team members
-- No misleading token claims
-- No investment promises
-- No hiding known security limitations
-- No presenting testnet infrastructure as Mainnet infrastructure
-
-Transparency is part of the product.
+See [`SECURITY.md`](https://github.com/Celo-HaiTi/.github/blob/main/SECURITY.md) for responsible disclosure procedures.
 
 ---
 
-## 🤝 Get Involved
+## Responsible Communication
 
-**Developers**
-Explore the repositories, review open issues, and contribute improvements.
+CeloHT does not intentionally fabricate users, transactions, partnerships, environmental impact, community statistics, production deployments, or investment results.
 
-**Researchers**
-Review our research, technical specifications, architecture, and public documentation.
+Anything that is **simulated**, **planned**, **experimental**, **under development**, or **testnet-only** is clearly labeled as such throughout the ecosystem.
 
-**Community Members**
-Participate in education, community programs, governance, and local initiatives.
-
-**Partners**
-Organizations interested in collaboration can review our partnership and governance documentation before engaging with the project.
-
-**Security Researchers**
-Responsible security disclosures are welcome through our published security channels.
+> **Transparency is part of the product.**
 
 ---
 
-## 🔗 Official Links
+## Research & Evidence
 
-**Website:**
-https://www.celoht.com
+CeloHT maintains dedicated research infrastructure to evaluate whether its programs actually work, not simply to report activity. Research areas include:
 
-**GitHub:**
-https://github.com/Celo-HaiTi
+- Financial inclusion outcomes
+- Education outcomes
+- Agent network performance
+- Digital payment adoption
+- Governance effectiveness
+- Security
+- Environmental impact and tree survival
+- Economic sustainability
+- Technical architecture
 
-**Documentation:**
-https://github.com/Celo-HaiTi/celoht-docs
-
-**Research:**
-https://github.com/Celo-HaiTi/celoht-research
-
-**DApp:**
-https://celo-haiti.github.io/celoht-dapp/
-
-**Community:**
-https://discord.gg/BZk3nS4KM6
+See [`celoht-research`](https://github.com/Celo-HaiTi/celoht-research) for studies, RFCs, and specifications.
 
 ---
 
-## 🌍 From Haiti to the World
+## Roadmap
 
-CeloHT begins with Haiti.
+| Phase | Timeline | Focus |
+|-------|----------|-------|
+| **1 — Foundation** | 2026 Q2–Q3 | Documentation, open-source foundation, initial agent cohort, partnerships, core infrastructure |
+| **2 — Validation** | 2026 Q4–2027 Q1 | Pilot validation, end-to-end infrastructure testing, agent workflows, security and production readiness, dApp alpha |
+| **3 — Growth** | 2027 | Agent network expansion, public dApp beta, education expansion, environmental programs, Caribbean partnerships |
+| **4 — Maturity** | 2028+ | Greater governance decentralization, sustainability, mature impact measurement, regional expansion |
 
-The long-term vision is larger: build open-source infrastructure that can demonstrate how financial education, community-based financial access, digital payments, and environmental restoration can work together.
-
-Built openly. Governed responsibly. Designed for real communities.
+Full roadmap: [`celoht-docs`](https://github.com/Celo-HaiTi/celoht-docs)
 
 ---
 
-**CeloHT**
+## Community Standards
 
-Education • Agent Network • Reforestation
+This `.github` repository provides shared organizational standards applied across the CeloHT ecosystem, including:
 
-Open source. No token. Community governed.
+- [Code of Conduct](https://github.com/Celo-HaiTi/.github/blob/main/CODE_OF_CONDUCT.md)
+- [Contribution Guidelines](https://github.com/Celo-HaiTi/.github/blob/main/CONTRIBUTING.md)
+- [Security Policy](https://github.com/Celo-HaiTi/.github/blob/main/SECURITY.md)
+- Issue templates
+- Pull request standards
+- Documentation standards
+- Responsible disclosure procedures
+
+---
+
+## Contributing
+
+CeloHT welcomes contributions across many disciplines, including:
+
+- Software development
+- Security
+- Documentation
+- Research
+- Education
+- Design
+- Testing
+- Environmental initiatives
+- Translation
+- Community development
+
+Before contributing, please review:
+
+- [`CONTRIBUTING.md`](https://github.com/Celo-HaiTi/.github/blob/main/CONTRIBUTING.md)
+- [`CODE_OF_CONDUCT.md`](https://github.com/Celo-HaiTi/.github/blob/main/CODE_OF_CONDUCT.md)
+- [`SECURITY.md`](https://github.com/Celo-HaiTi/.github/blob/main/SECURITY.md)
+
+---
+
+## Repository Status Philosophy
+
+Every repository and component in the CeloHT ecosystem is labeled according to its actual readiness level. A repository must never imply a higher readiness level than the evidence supports.
+
+| Status | Meaning |
+|--------|---------|
+| Experimental | Early experimentation |
+| Development | Active implementation |
+| Testnet | Deployed for testing |
+| Security Review | Under security validation |
+| Production Ready | Meets defined production requirements |
+| Mainnet | Operational on Mainnet |
+| Archived | No longer actively maintained |
+
+---
+
+## Relationship with Celo
+
+CeloHT is an **independent, open-source initiative** that uses Celo's public blockchain infrastructure. CeloHT does not own or control the Celo network, and this project is not an official product or endorsement of the Celo Foundation or any wallet provider. References to Celo, USDm, and CELO describe the infrastructure CeloHT builds on top of, not affiliations or endorsements.
+
+---
+
+## Official Links
+
+- 🏢 **GitHub Organization:** [github.com/Celo-HaiTi](https://github.com/Celo-HaiTi)
+- 📖 **Documentation:** [celoht-docs](https://github.com/Celo-HaiTi/celoht-docs)
+- 🔬 **Research:** [celoht-research](https://github.com/Celo-HaiTi/celoht-research)
+- 🌐 **Website:** [celoht.com](https://www.celoht.com)
+- 💬 **Discussions:** [github.com/Celo-HaiTi/CeloHT/discussions](https://github.com/Celo-HaiTi/CeloHT/discussions)
+- 🎨 **Brand:** [celoht-brand](https://github.com/Celo-HaiTi/celoht-brand)
+
+---
+
+<sub>CeloHT is a community-governed, open-source initiative. This document reflects the current state of the project and will evolve as the ecosystem matures.</sub>

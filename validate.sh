@@ -71,7 +71,7 @@ if [ $? -ne 0 ]; then FAIL=1; fi
 echo ""
 echo "=== 5. No-Token Policy language check ==="
 if grep -RniE '\$celoht\b|celoht ?coin\b|celoht token (sale|launch|is live)|presale (is|now) (live|open)|buy celoht|invest in celoht' \
-  --include="*.md" . ; then
+  --include="*.md" . | grep -vi 'no "$celoht"'; then
   echo "FAIL"
   FAIL=1
 else

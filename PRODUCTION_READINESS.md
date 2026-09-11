@@ -55,8 +55,6 @@ None.
 
 ## HISTORICAL / DEPRECATED
 
-- `Celo-HT` references retained in policy or roadmap text are explicitly
-  labeled legacy or historical.
 - Alfajores and cUSD are not current CeloHT network or asset standards; current
   guidance uses Celo Sepolia (`11142220`) and USDm.
 

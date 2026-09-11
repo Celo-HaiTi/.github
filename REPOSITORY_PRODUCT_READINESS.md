@@ -37,24 +37,22 @@ This repository is not the application layer, not a smart-contract package, and 
 
 ## Changes Made
 
-- Corrected active organization references from legacy `Celo-HT` to canonical `Celo-HaiTi`
+- Corrected active organization references to canonical `Celo-HaiTi`
 - Fixed broken repository-relative links in org metadata docs
 - Updated issue templates and support links to the current org and canonical documentation repo
 - Updated profile and org metadata files to reflect canonical identity and current public references
-- Preserved historical references only where they are explicitly labeled as legacy or historical
 
 ## Contradictions Found
 
-- Legacy GitHub organization references were still active in project metadata
+- GitHub organization references were still active in project metadata
 - Some org-wide links pointed to outdated org paths or stale repository conventions
 - Several internal links referenced files that do not exist in this repo
-- The repo contained stale references to `Celo-HT` in a way that could be mistaken for current primary identity
 
 ## Contradictions Resolved
 
 - Replaced active links with the canonical `Celo-HaiTi` org links
 - Corrected broken internal references to valid files
-- Kept historical references only where they clearly describe legacy history rather than active state
+- Kept current identity references consistent across repository metadata
 
 ## Network Status
 

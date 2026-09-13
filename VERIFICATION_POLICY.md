@@ -17,6 +17,12 @@ This document defines how CeloHT verifies the identity and public presence of in
 
 ---
 
+## Founder Recognition and Verification
+
+The Founder designation is a historical and institutional recognition of Johnny Dubic as the Founder of CeloHT. This is distinct from executive or governance authority. Founder status does not automatically confer Council membership, voting rights, veto power, emergency authority, or unilateral control over CeloHT decisions.
+
+If the Founder role description is not supported by current, objective, public evidence, CeloHT records the status as **Pending Verification** rather than treating it as fully confirmed. Verification is evidence-based, objective, auditable, and transparent.
+
 ## 1. Identity Verification Requirements
 
 Before an individual is published in `TEAM.md` or `MAINTAINERS.md` with a status other than "Open," "Vacant," or "TBA," CeloHT requires:

@@ -34,7 +34,7 @@ The main [CeloHT](https://github.com/Celo-HaiTi/CeloHT) documentation repository
 
 ## Contributing to This Repository
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md). Changes here affect every CeloHT repository's default experience, so pull requests touching `CODE_OF_CONDUCT.md`, `SECURITY.md`, or `GOVERNANCE.md` require Maintainer Council review, consistent with the elevated-review pattern used across CeloHT's repositories.
+See [CONTRIBUTING.md](./CONTRIBUTING.md). Changes here affect every CeloHT repository's default experience, so pull requests touching `CODE_OF_CONDUCT.md`, `SECURITY.md`, or `GOVERNANCE.md` require documented maintainer and governance review, consistent with the elevated-review pattern used across CeloHT's repositories.
 
 ## License
 

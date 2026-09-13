@@ -37,7 +37,7 @@ Approval authority depends on the amount: expenses under $500 require Treasury C
 
 ## 3. Does the Founder control the treasury?
 
-No. The Founder, Johnny Dubic, holds one seat and one vote on the Governance Council and no unilateral treasury authority. All treasury decisions above routine thresholds require multi-person approval, and the Founder is subject to the same conflict-of-interest and recusal rules as every other role holder. See `GOVERNANCE.md` Section 3.1 and `LEGAL_STATUS.md` Section 9.
+No. Johnny Dubic is recognized as the Founder of CeloHT, but Founder status does not grant automatic Council membership, a Council vote, veto power, or unilateral treasury authority. All treasury decisions above routine thresholds require multi-person or collective approval under the documented governance process. See `GOVERNANCE.md` Section 3.1 and `LEGAL_STATUS.md` Section 9.
 
 ## 4. How are financial reports published?
 

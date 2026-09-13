@@ -5,7 +5,7 @@
 - Community members using CeloHT's education and payment tools
 - Agent Network members providing local support
 - Open-source contributors — code, documentation, translation, research
-- Maintainers and the Foundation Director
+- Maintainers and community governance participants
 - Partner organizations — NGOs, universities, governments, companies
 - Diaspora supporters
 - Ambassadors representing CeloHT regionally or professionally
@@ -26,7 +26,7 @@ Current invite links and handles are maintained on [celoht.com](https://celoht.c
 - **Learn** — complete education modules, no commitment required
 - **Contribute** — code, docs, translation, or research; see [CONTRIBUTING.md](./CONTRIBUTING.md)
 - **Become an agent** — see the main documentation repository's `AGENT_NETWORK.md`
-- **Join a Maintainer Council area** — see [MAINTAINERS.md](./MAINTAINERS.md)
+- **Join a maintainer area** — see [MAINTAINERS.md](./MAINTAINERS.md)
 - **Become an ambassador** — see the main documentation repository's `AMBASSADOR_PROGRAM.md`
 - **Partner your organization** — see `PARTNERS.md`
 

@@ -21,7 +21,7 @@ This document recognizes individuals who have authored code, documentation, educ
 |---|---|---|
 | Johnny Dubic | Founder | Founding contributor to CeloHT's initial documentation, governance framework, and project direction |
 
-The Founder's authorship is recognized here in the same factual, non-biographical format applied to every other entry in this document. Additional detail is not included beyond what is necessary to record authorship, consistent with `TEAM.md` and `VERIFICATION_POLICY.md`.
+The Founder's authorship is recognized here in the same factual, non-biographical format applied to every other entry in this document. Founder status is treated as a historical designation of CeloHT's founding identity, not as an automatic governance or executive title, consistent with `TEAM.md` and `VERIFICATION_POLICY.md`.
 
 ---
 

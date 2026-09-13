@@ -36,7 +36,7 @@ This document exists because a project's credibility depends in part on the veri
 |---|---|
 | **Name** | Johnny Dubic |
 | **Role** | Founder |
-| **Authority** | Founding role with defined, limited safeguard authority under `GOVERNANCE.md` Section 3.1; one seat and one vote on the Governance Council; subject to the same Conflict of Interest, Ethics, and Recusal rules as every other role |
+| **Authority** | Founder status is permanently recognized as CeloHT's founding/historical designation. It does not automatically confer Governance Council membership, voting rights, veto power, emergency override authority, or unilateral governance control. |
 | **Public profile** | To Be Announced (TBA) — pending publication of verified public profile links (see Section 7) |
 | **Verification status** | Pending Verification (see `VERIFICATION_POLICY.md`) |
 
@@ -87,7 +87,7 @@ A vacancy in this table does not indicate an absence of activity — it indicate
 
 | Role | Core Responsibilities |
 |---|---|
-| **Founder** | Mission continuity, limited emergency safeguard, one Governance Council vote |
+| **Founder** | Founding history, mission continuity, institutional context, participation in governance under the same rules as all contributors |
 | **Governance Council Member** | Strategic and treasury decisions, governance amendments, oversight of Working Groups |
 | **Maintainer** | Code review, release management, security triage within assigned repository scope (see `MAINTAINERS.md`) |
 | **Working Group Lead** | Operational execution within a published charter; reports to the Governance Council |

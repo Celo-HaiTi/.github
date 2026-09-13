@@ -128,21 +128,33 @@ graph TD
 
 ### 3.1 Founder
 
-The Founder role exists to preserve institutional memory, mission continuity, and initial technical direction during CeloHT's early years. The Founder:
+Johnny Dubic is permanently recognized as the Founder of CeloHT. Founder status is a historical and institutional designation reflecting the project's founding history and continuity, not an ongoing automatic governance mandate.
 
-- May initiate proposals like any other eligible participant, but does **not** hold unilateral veto power over Governance Council decisions once the Council reaches a quorum-based vote.
-- Holds one seat on the Governance Council, with one vote, equal in weight to every other Council member on ordinary matters.
-- Retains a limited, publicly documented "founder safeguard" solely for emergency decisions defined in Section 4.4, which automatically expire and require Council ratification within 14 days.
-- Is subject to the same Conflict of Interest, Ethics, and Recusal rules as every other role.
+The Founder may:
 
-The Founder safeguard exists to prevent governance paralysis during CeloHT's early growth phase and is designed to sunset as the Governance Council matures (see Section 21, Annual Governance Review).
+- submit ideas and proposals
+- participate in public discussion and deliberation
+- contribute technical or institutional knowledge
+- provide historical context on the project's mission and evolution
+
+The Founder does **not** automatically receive:
+
+- Governance Council membership
+- a reserved Council seat
+- a Council vote
+- veto power
+- special emergency override authority
+- unilateral approval authority
+- permanent governance domination
+
+Any proposal from the Founder must follow the same documented collective governance process as any other participant. A proposal is not an official CeloHT decision until the required review, deliberation, and approval process has occurred.
 
 ### 3.2 Governance Council
 
 The Governance Council is CeloHT's highest ongoing decision-making body for strategic, treasury, and governance-amendment matters.
 
 - **Size:** 5–9 seats, odd-numbered to avoid tie votes where possible.
-- **Composition:** Elected representatives from active Working Groups, plus the Founder seat, plus at-large community-elected seats (see Section 16).
+- **Composition:** Elected representatives from active Working Groups and at-large community-elected seats (see Section 16). The Founder does not receive an automatic Council seat or vote.
 - **Term:** 12 months, renewable, with staggered elections so no more than half the Council turns over at once.
 - **Authority:** Approves strategic and treasury proposals, ratifies emergency decisions, appoints Working Group leads pending community confirmation, and approves amendments to this document.
 
@@ -182,7 +194,7 @@ Anyone who uses CeloHT educational material, participates in forums, or engages 
 
 | Role | Appointed by | Core Responsibility | Term | Removal Process |
 |---|---|---|---|---|
-| Founder | N/A (originating role) | Mission continuity, emergency safeguard | Ongoing, reviewed annually | Governance Council 2/3 vote (Section 16.4) |
+| Founder | Historical designation | Mission continuity, founding history, proposal participation, institutional context | Ongoing, reviewed as needed | Not an automatic governance authority; subject to same documented rules and community process |
 | Governance Council | Election (Section 16) | Strategic, treasury, governance decisions | 12 months | Recall vote or resignation |
 | Maintainers | Governance Council | Code review, releases, security triage | Ongoing, reviewed every 6 months | Council majority vote or inactivity policy |
 | Working Group Lead | Council confirmation | Operational execution within charter | 6–12 months | Council majority vote |
@@ -204,7 +216,7 @@ CeloHT classifies every decision into one of four categories. The category deter
 | **Operational** | Merging a typo fix, scheduling a community call | Maintainers / Working Group Lead | GitHub commit or issue |
 | **Technical** | Adopting a new library, changing a smart-contract interface | Maintainers + relevant Working Group, RFC required | RFC + PR |
 | **Strategic** | New pillar initiative, major partnership, annual roadmap | Governance Council vote | Council meeting notes + published proposal |
-| **Emergency** | Security incident, treasury freeze, safety issue | Founder safeguard or Council quorum of available members | Incident report within 72 hours, full Council ratification within 14 days |
+| **Emergency** | Security incident, treasury freeze, safety issue | Documented emergency process under the relevant collective authority, with Council ratification within 14 days | Incident report within 72 hours, full Council ratification within 14 days |
 
 ### 4.2 Operational Decisions
 
@@ -223,8 +235,8 @@ Strategic decisions — new pillars, major roadmap shifts, treasury commitments 
 Emergency decisions apply only to situations posing an immediate risk to user funds, contributor safety, or system integrity (e.g., an active smart-contract exploit). Emergency authority is deliberately narrow:
 
 1. Any Maintainer or Council member may declare an emergency and take the minimum necessary containment action (e.g., pausing a contract function, revoking a compromised credential).
-2. The Founder safeguard may be used only if a Council quorum cannot be reached within 4 hours.
-3. All emergency actions must be reported publicly within 72 hours and formally ratified — or reversed — by full Council vote within 14 days.
+2. Emergency response authority is exercised within the documented governance process and does not grant any individual unilateral authority over the project's governance.
+3. All emergency actions must be reported publicly within 72 hours and formally ratified — or reversed — by the relevant collective decision process within 14 days.
 4. Repeated or unjustified use of emergency authority is grounds for role review under Section 3.9.
 
 ### 4.6 Decision Tree
@@ -266,7 +278,7 @@ A Governance Council vote requires a minimum of 60% of seated Council members pa
 | Simple Majority | More than 50% of participating votes | Operational ratifications, Working Group Lead confirmation |
 | Absolute Majority | More than 50% of **all seated** Council members (not just participants) | Treasury disbursements above the standard threshold |
 | Two-Thirds Majority | ≥ 66.7% of participating votes | Amendments to Working Group charters, removal of a Maintainer |
-| Super Majority | ≥ 75% of participating votes | Amendments to this Governance document, removal of a Council member or the Founder |
+| Super Majority | ≥ 75% of participating votes | Amendments to this Governance document and removal of a Council member |
 
 ### 5.4 Voting Duration
 
@@ -438,7 +450,7 @@ Security vulnerabilities in CeloHT code (including smart contracts) should be re
 
 ### 12.2 Incident Response
 
-A security incident triggers the Emergency Decision process (Section 4.5). The Working Group or Maintainer team affected leads containment, with the Founder safeguard available only if Council quorum cannot be reached.
+A security incident triggers the Emergency Decision process (Section 4.5). The Working Group or Maintainer team affected leads containment under the documented emergency process, with any emergency action subject to timely public reporting and collective ratification.
 
 ### 12.3 Emergency Actions
 
@@ -618,7 +630,7 @@ Each risk category is reviewed at minimum annually as part of the Annual Governa
 Each year, the Governance Council conducts a formal review of this document and CeloHT's overall governance health, covering:
 
 - Whether decision thresholds and quorum rules functioned as intended.
-- Whether the Founder safeguard was used, and whether conditions now allow it to be narrowed further.
+- Whether emergency authority was used appropriately and whether procedural safeguards remain proportionate.
 - Working Group charter effectiveness and any needed restructuring.
 - Community feedback on governance processes, collected via open survey.
 
@@ -663,7 +675,7 @@ graph TD
 | Operational | Maintainer / WG Lead | N/A (logged) | Immediate |
 | Technical | Maintainers + RFC | Maintainer consensus | 5-day min RFC |
 | Strategic | Governance Council | Absolute Majority (or Super Majority for governance) | 5-day min vote |
-| Emergency | Founder safeguard / available Council | Ratified within 14 days | Immediate action, 72-hr report |
+| Emergency | Relevant collective authority under emergency process | Ratified within 14 days | Immediate action, 72-hr report |
 
 ### 23.3 Voting Matrix
 
@@ -673,7 +685,7 @@ graph TD
 | Treasury disbursement (above threshold) | 60% of seated Council | Absolute Majority |
 | Working Group charter amendment | 60% of seated Council | Two-Thirds Majority |
 | Governance document amendment | 60% of seated Council | Super Majority |
-| Removal of Council member / Founder | 60% of seated Council | Super Majority |
+| Removal of Council member | 60% of seated Council | Super Majority |
 
 ### 23.4 Treasury Flow
 

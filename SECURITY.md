@@ -17,7 +17,7 @@ We ask security researchers to give CeloHT a reasonable window — typically **9
 
 ## Scope
 
-This policy covers all repositories in the CeloHT GitHub organization: [CeloHT](https://github.com/Celo-HaiTi/CeloHT), [celoht-research](https://github.com/Celo-HaiTi/celoht-research), [celoht-brand](https://github.com/Celo-HaiTi/celoht-brand), and this `.github` repository.
+This policy covers all repositories in the Celo-HaiTi GitHub organization: [CeloHT](https://github.com/Celo-HaiTi/CeloHT), [celoht-research](https://github.com/Celo-HaiTi/celoht-research), [celoht-brand](https://github.com/Celo-HaiTi/celoht-brand), and this `.github` repository.
 
 For the full threat model and incident-response process, see the main documentation repository's [`THREAT_MODEL.md`](https://github.com/Celo-HaiTi/CeloHT/blob/main/THREAT_MODEL.md) and [`INCIDENT_RESPONSE.md`](https://github.com/Celo-HaiTi/CeloHT/blob/main/INCIDENT_RESPONSE.md).
 

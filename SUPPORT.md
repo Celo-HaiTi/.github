@@ -4,7 +4,7 @@
 
 | Need | Where |
 |---|---|
-| General question about CeloHT | [GitHub Discussions](https://github.com/orgs/Celo-HaiTi/discussions) |
+| General question about Celo-HaiTi | [GitHub Discussions](https://github.com/orgs/Celo-HaiTi/discussions) |
 | Bug report | Open an issue in the relevant repository using the Bug Report template |
 | Documentation gap | Open an issue using the Documentation template |
 | Security vulnerability | **security@celoht.com** — see [SECURITY.md](./SECURITY.md), never a public issue |
@@ -20,7 +20,7 @@
 
 ## Response Times
 
-CeloHT is a community-driven, volunteer-heavy project. General questions typically get a response within a few days via Discussions. Security reports are prioritized per the timeline in [SECURITY.md](./SECURITY.md).
+Celo-HaiTi is a community-driven, volunteer-heavy project. General questions typically get a response within a few days via Discussions. Security reports are prioritized per the timeline in [SECURITY.md](./SECURITY.md).
 
 ## Community Spaces
 
@@ -29,7 +29,7 @@ CeloHT is a community-driven, volunteer-heavy project. General questions typical
 
 ## A Note on Impersonation
 
-CeloHT never asks for your seed phrase, private key, or wallet password through any support channel. If you receive such a request claiming to be from CeloHT, it's fraudulent — report it to security@celoht.com.
+Celo-HaiTi never asks for your seed phrase, private key, or wallet password through any support channel. If you receive such a request claiming to be from Celo-HaiTi, it's fraudulent — report it to security@celoht.com.
 
 ## Supporting CeloHT
 

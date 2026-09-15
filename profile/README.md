@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# CeloHT
+# Celo-HaiTi
 
 <img width="260" height="260" alt="celoht-logo" src="https://github.com/user-attachments/assets/37c69587-139b-4ecd-b5a7-c73f22ec144f" />
 
@@ -12,9 +12,9 @@
 [![Status](https://img.shields.io/badge/status-active--development-yellow)](#repository-status-philosophy)
 [![Website](https://img.shields.io/badge/website-celoht.com-brightgreen)](https://www.celoht.com)
 
-CeloHT is a Haitian-led, open-source, community-governed initiative focused on financial inclusion, Web3 and financial education, community-based digital financial infrastructure, environmental restoration, and open research. CeloHT uses the [Celo](https://celo.org) ecosystem as its underlying technical infrastructure.
+Celo-HaiTi is a Haitian-led, open-source, community-governed initiative focused on financial inclusion, Web3 and financial education, community-based digital financial infrastructure, environmental restoration, and open research. Celo-HaiTi uses the [Celo](https://celo.org) ecosystem as its underlying technical infrastructure.
 
-> **CeloHT is not a blockchain, cryptocurrency, exchange, investment platform, ICO, or token issuer.** See the [No Token Policy](#no-token-policy) below.
+> **Celo-HaiTi is not a blockchain, cryptocurrency, exchange, investment platform, ICO, or token issuer.** See the [No Token Policy](#no-token-policy) below.
 
 ---
 

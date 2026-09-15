@@ -1,8 +1,8 @@
 # .github
 
-**The community health repository for the CeloHT GitHub organization.**
+**The community health repository for the Celo-HaiTi GitHub organization.**
 
-This repository provides shared, organization-wide defaults so that every CeloHT repository — [CeloHT](https://github.com/Celo-HaiTi/CeloHT), [celoht-research](https://github.com/Celo-HaiTi/celoht-research), [celoht-brand](https://github.com/Celo-HaiTi/celoht-brand), and any future repository — inherits a consistent, professional community experience without duplicating the same files everywhere.
+This repository provides shared, organization-wide defaults so that every Celo-HaiTi repository — [CeloHT](https://github.com/Celo-HaiTi/CeloHT), [celoht-research](https://github.com/Celo-HaiTi/celoht-research), [celoht-brand](https://github.com/Celo-HaiTi/celoht-brand), and any future repository — inherits a consistent, professional community experience without duplicating the same files everywhere.
 
 ## What Lives Here
 
@@ -28,13 +28,13 @@ GitHub automatically falls back to the files in this repository — `CODE_OF_CON
 
 `profile/README.md` is the one exception with a different mechanism: GitHub renders it directly as the organization's public profile page.
 
-## Keeping This Repository and `CeloHT` in Sync
+## Keeping This Repository and Celo-HaiTi in Sync
 
 The main [CeloHT](https://github.com/Celo-HaiTi/CeloHT) documentation repository is the authoritative source for program, governance, and policy *detail* (`GOVERNANCE.md`, `NO_TOKEN_POLICY.md`, `SECURITY.md`, and so on). The files in this repository are intentionally shorter, org-wide-appropriate summaries that link back to that authoritative detail rather than duplicating it — see each file for its specific link-back. When something changes in the main documentation repository's governance or security policy, the corresponding summary here should be updated in the same pull request cycle, not left to drift.
 
 ## Contributing to This Repository
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md). Changes here affect every CeloHT repository's default experience, so pull requests touching `CODE_OF_CONDUCT.md`, `SECURITY.md`, or `GOVERNANCE.md` require documented maintainer and governance review, consistent with the elevated-review pattern used across CeloHT's repositories.
+See [CONTRIBUTING.md](./CONTRIBUTING.md). Changes here affect every Celo-HaiTi repository's default experience, so pull requests touching `CODE_OF_CONDUCT.md`, `SECURITY.md`, or `GOVERNANCE.md` require documented maintainer and governance review, consistent with the elevated-review pattern used across Celo-HaiTi repositories.
 
 ## License
 

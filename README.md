@@ -1,6 +1,6 @@
 # .github
 
-**The community health repository for the Celo-HaiTi GitHub organization.**
+**The community health repository for the Celo-HaiTi **CeloHT** GitHub organization.**
 
 This repository provides shared, organization-wide defaults so that every Celo-HaiTi repository — [CeloHT](https://github.com/Celo-HaiTi/CeloHT), [celoht-research](https://github.com/Celo-HaiTi/celoht-research), [celoht-brand](https://github.com/Celo-HaiTi/celoht-brand), and any future repository — inherits a consistent, professional community experience without duplicating the same files everywhere.
 

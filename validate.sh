@@ -79,7 +79,16 @@ else
 fi
 
 echo ""
-echo "=== 6. FUNDING.yml has no crypto/token donation fields (excluding explanatory comments) ==="
+echo "=== 6. Secret scan for committed credentials ==="
+if grep -RInE 'BEGIN (RSA|EC|OPENSSH) PRIVATE KEY|gh[pousr]_[A-Za-z0-9]+|github_pat_[A-Za-z0-9_]+|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{35}|sk_live_[A-Za-z0-9]+|pk_live_[A-Za-z0-9]+|AUTH_SESSION_SECRET\s*[:=]|SUPABASE_SERVICE_ROLE_KEY\s*[:=]|DATABASE_URL\s*[:=]|PRIVATE_KEY\s*[:=]' --exclude-dir=.git .; then
+  echo "FAIL: secret-like material detected in repository"
+  FAIL=1
+else
+  echo "OK"
+fi
+
+echo ""
+echo "=== 7. FUNDING.yml has no crypto/token donation fields (excluding explanatory comments) ==="
 if grep -v '^\s*#' FUNDING.yml | grep -iE 'bitcoin|ethereum|crypto|wallet_address|token_donation'; then
   echo "FAIL: crypto-related funding field found"
   FAIL=1

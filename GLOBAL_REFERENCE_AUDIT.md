@@ -29,6 +29,11 @@ migration note, changelog, example, URL, generated document, or compatibility
 description. Rewrite current visible content to use `USDm`, `CeloHT`, and
 `Celo-HaiTi` as appropriate. Do not invent history or compatibility claims.
 
+The audit applies across every active repository in the `Celo-HaiTi`
+organization. A repository-local checkout must scan its complete current
+editable corpus, and an organization-wide audit must repeat the same scan for
+each active repository. The result must be zero obsolete visible matches.
+
 ## Immutable history
 
 Immutable Git history may contain old terminology because rewriting Git history
@@ -44,14 +49,17 @@ be corrected. It must contain zero obsolete visible terminology.
 
 The two enforcement manifests, `CANONICAL_IDENTITY.md` and
 `GLOBAL_REFERENCE_AUDIT.md`, are policy metadata and necessarily declare the
-patterns they prohibit. The validator excludes only those manifests from its
-content scan; every other current editable file is scanned.
+patterns they prohibit. They are the only deliberate declaration exceptions
+to the content scan; every other current editable file is scanned. This
+exception does not make obsolete terminology acceptable anywhere else in the
+current corpus.
 
 ## Audit procedure
 
 For every match, record the repository, file, line, exact text, and semantic
 category before editing. Check whether a URL target exists before changing a
-link. In particular, the verified smart-contract repository URL is:
+link. Never invent a repository or URL. The verified smart-contract repository
+URL is:
 
 `https://github.com/Celo-HaiTi/celoht-smart-contracts`
 

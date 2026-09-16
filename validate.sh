@@ -89,8 +89,14 @@ fi
 
 echo ""
 echo "=== 7. Canonical vocabulary (excluding enforcement manifests) ==="
-if grep -RInE --exclude-dir=.git --exclude='CANONICAL_IDENTITY.md' --exclude='GLOBAL_REFERENCE_AUDIT.md' --exclude='validate.sh' \
-  'cUSD|Celo-HT|github\.com/Celo-HT/|github\.com/Celo-HT' .; then
+# Build the prohibited terms from adjacent shell strings so this validator can
+# scan itself without creating a false positive from its own rule.
+OBSOLETE_CURRENCY='c'"USD"
+OBSOLETE_PROJECT='Celo-'"HT"
+OBSOLETE_ORG_URL='github.com/Celo-'"HT"
+OBSOLETE_PATTERN="${OBSOLETE_CURRENCY}|${OBSOLETE_PROJECT}|${OBSOLETE_ORG_URL}"
+if grep -RInE --exclude-dir=.git --exclude='CANONICAL_IDENTITY.md' --exclude='GLOBAL_REFERENCE_AUDIT.md' \
+  "$OBSOLETE_PATTERN" .; then
   echo "FAIL: obsolete canonical vocabulary detected"
   FAIL=1
 else

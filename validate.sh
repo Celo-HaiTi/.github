@@ -88,7 +88,17 @@ else
 fi
 
 echo ""
-echo "=== 7. FUNDING.yml has no crypto/token donation fields (excluding explanatory comments) ==="
+echo "=== 7. Canonical vocabulary (excluding enforcement manifests) ==="
+if grep -RInE --exclude-dir=.git --exclude='CANONICAL_IDENTITY.md' --exclude='GLOBAL_REFERENCE_AUDIT.md' --exclude='validate.sh' \
+  'cUSD|Celo-HT|github\.com/Celo-HT/|github\.com/Celo-HT' .; then
+  echo "FAIL: obsolete canonical vocabulary detected"
+  FAIL=1
+else
+  echo "OK"
+fi
+
+echo ""
+echo "=== 8. FUNDING.yml has no crypto/token donation fields (excluding explanatory comments) ==="
 if grep -v '^\s*#' FUNDING.yml | grep -iE 'bitcoin|ethereum|crypto|wallet_address|token_donation'; then
   echo "FAIL: crypto-related funding field found"
   FAIL=1
